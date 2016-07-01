@@ -1,0 +1,224 @@
+total 9876
+-rwxr-xr-x 1 root root      6248 Oct  2  2012 acpi_available
+-rwxr-xr-x 2 root root     32112 Sep  2  2015 agetty
+-rwxr-xr-x 1 root root      6272 Oct  2  2012 apm_available
+-rwxr-xr-x 1 root root    849048 Jun 18  2015 apparmor_parser
+-rwxr-xr-x 1 root root     27160 Sep  9  2015 badblocks
+-rwxr-xr-x 1 root root     31544 Sep  2  2015 blkid
+-rwxr-xr-x 1 root root     23016 Sep  2  2015 blockdev
+-rwxr-xr-x 1 root root     51768 Jul 23  2015 bridge
+-rwxr-xr-x 1 root root     18976 Feb 21  2014 capsh
+-rwxr-xr-x 1 root root     54368 Sep  2  2015 cfdisk
+-rwxr-xr-x 1 root root     14720 Oct  1  2012 crda
+-rwxr-xr-x 1 root root      6288 Sep  2  2015 ctrlaltdel
+-rwxr-xr-x 1 root root    116672 Sep  9  2015 debugfs
+lrwxrwxrwx 1 root root         9 Apr 10  2014 depmod -> /bin/kmod
+-rwxr-xr-x 1 root root   1668160 Jan 11 13:20 dhclient
+-rwxr-xr-x 1 root root     14484 Jan 11 13:20 dhclient-script
+-rwxr-xr-x 1 root root     71592 Dec 13  2013 dmsetup
+lrwxrwxrwx 1 root root         8 May 26 12:21 dosfsck -> fsck.fat
+lrwxrwxrwx 1 root root         8 May 26 12:21 dosfslabel -> fatlabel
+-rwxr-xr-x 1 root root     23072 Sep  9  2015 dumpe2fs
+-rwxr-xr-x 1 root root    248408 Sep  9  2015 e2fsck
+-rwxr-xr-x 1 root root     31432 Sep  9  2015 e2image
+lrwxrwxrwx 1 root root         7 Sep  9  2015 e2label -> tune2fs
+-rwxr-xr-x 1 root root     10592 Sep  9  2015 e2undo
+-rwxr-xr-x 1 root root     51696 May 26 12:21 fatlabel
+-rwxr-xr-x 1 root root     99488 Sep  2  2015 fdisk
+-rwxr-xr-x 1 root root      6304 Sep  2  2015 findfs
+-rwxr-xr-x 1 root root     14083 Dec 13  2013 fsadm
+-rwxr-xr-x 1 root root     31608 Sep  2  2015 fsck
+-rwxr-xr-x 1 root root     14640 Sep  2  2015 fsck.cramfs
+lrwxrwxrwx 1 root root         6 Sep  9  2015 fsck.ext2 -> e2fsck
+lrwxrwxrwx 1 root root         6 Sep  9  2015 fsck.ext3 -> e2fsck
+lrwxrwxrwx 1 root root         6 Sep  9  2015 fsck.ext4 -> e2fsck
+lrwxrwxrwx 1 root root         6 Sep  9  2015 fsck.ext4dev -> e2fsck
+-rwxr-xr-x 1 root root     55800 May 26 12:21 fsck.fat
+-rwxr-xr-x 1 root root     31200 Sep  2  2015 fsck.minix
+lrwxrwxrwx 1 root root         8 May 26 12:21 fsck.msdos -> fsck.fat
+-rwxr-xr-x 1 root root       333 Feb 17 04:59 fsck.nfs
+lrwxrwxrwx 1 root root         8 May 26 12:21 fsck.vfat -> fsck.fat
+-rwxr-xr-x 1 root root     10440 Sep  2  2015 fsfreeze
+-rwxr-xr-x 1 root root      6304 Feb 17 04:59 fstab-decode
+-rwxr-xr-x 1 root root     14616 Sep  2  2015 fstrim
+-rwxr-xr-x 1 root root      3002 Sep  2  2015 fstrim-all
+-rwxr-xr-x 1 root root     10456 Feb 21  2014 getcap
+-rwxr-xr-x 1 root root      6328 Feb 21  2014 getpcaps
+-rwxr-xr-x 2 root root     32112 Sep  2  2015 getty
+lrwxrwxrwx 1 root root         6 Jul 18  2014 halt -> reboot
+-rwxr-xr-x 1 root root    103056 Nov 15  2013 hdparm
+-rwxr-xr-x 1 root root     35384 Sep  2  2015 hwclock
+-rwxr-xr-x 1 root root     68040 Aug  5  2014 ifconfig
+lrwxrwxrwx 1 root root         4 Feb 25 17:52 ifdown -> ifup
+lrwxrwxrwx 1 root root         4 Feb 25 17:52 ifquery -> ifup
+-rwxr-xr-x 1 root root     67088 Feb 25 17:52 ifup
+-rwxr-xr-x 1 root root    265848 Jul 18  2014 init
+-rwxr-xr-x 1 root root    193512 Jul 18  2014 initctl
+lrwxrwxrwx 1 root root         9 Apr 10  2014 insmod -> /bin/kmod
+-rwxr-xr-x 1 root root      2382 Aug 28  2013 installkernel
+lrwxrwxrwx 1 root root         7 Jul 23  2015 ip -> /bin/ip
+lrwxrwxrwx 1 root root        13 Jan  8  2014 ip6tables -> xtables-multi
+lrwxrwxrwx 1 root root        14 Jan  8  2014 ip6tables-apply -> iptables-apply
+lrwxrwxrwx 1 root root        13 Jan  8  2014 ip6tables-restore -> xtables-multi
+lrwxrwxrwx 1 root root        13 Jan  8  2014 ip6tables-save -> xtables-multi
+-rwxr-xr-x 1 root root     18760 Aug  5  2014 ipmaddr
+lrwxrwxrwx 1 root root        13 Jan  8  2014 iptables -> xtables-multi
+-rwxr-xr-x 1 root root      7016 Jan  8  2014 iptables-apply
+lrwxrwxrwx 1 root root        13 Jan  8  2014 iptables-restore -> xtables-multi
+lrwxrwxrwx 1 root root        13 Jan  8  2014 iptables-save -> xtables-multi
+-rwxr-xr-x 1 root root     22864 Aug  5  2014 iptunnel
+-rwxr-xr-x 1 root root     14616 Sep  2  2015 isosize
+-rwxr-xr-x 1 root root     10552 Feb 18  2013 kbdrate
+-rwxr-xr-x 1 root root     18504 Oct 21  2013 key.dns_resolver
+-rwxr-xr-x 1 root root     18992 Feb 17 04:59 killall5
+-rwxr-xr-x 1 root root       387 May 26 10:31 ldconfig
+-rwxr-xr-x 1 root root    951888 May 26 10:31 ldconfig.real
+-rwxr-xr-x 1 root root     10544 Sep  9  2015 logsave
+-rwxr-xr-x 1 root root     43584 Sep  2  2015 losetup
+lrwxrwxrwx 1 root root         9 Apr 10  2014 lsmod -> /bin/kmod
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvchange -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvconvert -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvcreate -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvdisplay -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvextend -> lvm
+-rwxr-xr-x 1 root root    947328 Dec 13  2013 lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvmchange -> lvm
+-rwxr-xr-x 1 root root      6691 Dec 13  2013 lvmconf
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvmdiskscan -> lvm
+-rwxr-xr-x 1 root root      7301 Dec 13  2013 lvmdump
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvmsadc -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvmsar -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvreduce -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvremove -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvrename -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvresize -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvs -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 lvscan -> lvm
+-rwxr-xr-x 1 root root     52466 May 19  2013 MAKEDEV
+-rwxr-xr-x 1 root root     19264 Aug  5  2014 mii-tool
+lrwxrwxrwx 1 root root         8 May 26 12:21 mkdosfs -> mkfs.fat
+-rwxr-xr-x 1 root root     97944 Sep  9  2015 mke2fs
+-rwxr-xr-x 1 root root     10440 Sep  2  2015 mkfs
+-rwxr-xr-x 1 root root     18736 Sep  2  2015 mkfs.bfs
+-rwxr-xr-x 1 root root     31216 Sep  2  2015 mkfs.cramfs
+lrwxrwxrwx 1 root root         6 Sep  9  2015 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root         6 Sep  9  2015 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root         6 Sep  9  2015 mkfs.ext4 -> mke2fs
+lrwxrwxrwx 1 root root         6 Sep  9  2015 mkfs.ext4dev -> mke2fs
+-rwxr-xr-x 1 root root     27608 May 26 12:21 mkfs.fat
+-rwxr-xr-x 1 root root     27144 Sep  2  2015 mkfs.minix
+lrwxrwxrwx 1 root root         8 May 26 12:21 mkfs.msdos -> mkfs.fat
+lrwxrwxrwx 1 root root         6 Dec 18  2013 mkfs.ntfs -> mkntfs
+lrwxrwxrwx 1 root root         8 May 26 12:21 mkfs.vfat -> mkfs.fat
+-rwxr-xr-x 1 root root     18784 Mar 16 17:47 mkhomedir_helper
+-rwxr-xr-x 1 root root     79984 Dec 18  2013 mkntfs
+-rwxr-xr-x 1 root root     23112 Sep  2  2015 mkswap
+-rwxr-xr-x 1 root root     31112 Feb 22  2014 mntctl
+lrwxrwxrwx 1 root root         9 Apr 10  2014 modinfo -> /bin/kmod
+lrwxrwxrwx 1 root root         9 Apr 10  2014 modprobe -> /bin/kmod
+-rwxr-xr-x 1 root root    104968 Feb 22  2014 mountall
+-rwxr-xr-x 1 root root     10240 May 15  2015 mount.fuse
+lrwxrwxrwx 1 root root        15 Dec 18  2013 mount.lowntfs-3g -> /bin/lowntfs-3g
+-rwsr-xr-x 1 root root     94168 Nov  6  2015 mount.nfs
+lrwxrwxrwx 1 root root         9 Nov  6  2015 mount.nfs4 -> mount.nfs
+lrwxrwxrwx 1 root root        13 Dec 18  2013 mount.ntfs -> mount.ntfs-3g
+lrwxrwxrwx 1 root root        12 Dec 18  2013 mount.ntfs-3g -> /bin/ntfs-3g
+lrwxrwxrwx 1 root root        40 Sep 14  2012 mount.vboxsf -> /usr/lib/VBoxGuestAdditions/mount.vboxsf
+-rwxr-xr-x 1 root root     14816 Aug  5  2014 nameif
+-rwxr-xr-x 1 root root     55408 Dec 18  2013 ntfsclone
+-rwxr-xr-x 1 root root     30824 Dec 18  2013 ntfscp
+-rwxr-xr-x 1 root root     26728 Dec 18  2013 ntfslabel
+-rwxr-xr-x 1 root root     71792 Dec 18  2013 ntfsresize
+-rwxr-xr-x 1 root root     47208 Dec 18  2013 ntfsundelete
+-rwxr-xr-x 1 root root      2251 Dec  2  2009 on_ac_power
+-rwxr-xr-x 1 root root      2586 Nov  6  2015 osd_login
+-rwxr-xr-x 1 root root     10544 Mar 16 17:47 pam_tally
+-rwxr-xr-x 1 root root     14728 Mar 16 17:47 pam_tally2
+-rwxr-xr-x 1 root root     81296 Jul 23  2015 parted
+-rwxr-xr-x 1 root root     10488 Jul 23  2015 partprobe
+-rwxr-xr-x 1 root root      6240 Sep  2  2015 pivot_root
+-rwxr-xr-x 1 root root     10448 Aug  5  2014 plipconfig
+-rwxr-xr-x 1 root root     81632 Dec  2  2014 plymouthd
+lrwxrwxrwx 1 root root         6 Jul 18  2014 poweroff -> reboot
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvchange -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvck -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvcreate -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvdisplay -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvmove -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvremove -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvresize -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvs -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 pvscan -> lvm
+-rwxr-xr-x 1 root root     29800 Aug  5  2014 rarp
+-rwxr-xr-x 1 root root     10424 Sep  2  2015 raw
+-rwxr-xr-x 1 root root     14784 Jul 18  2014 reboot
+-rwxr-xr-x 1 root root     10488 Oct  1  2012 regdbdump
+lrwxrwxrwx 1 root root         7 Jul 18  2014 reload -> initctl
+-rwxr-xr-x 1 root root     18432 Oct 21  2013 request-key
+-rwxr-xr-x 1 root root     48160 Sep  9  2015 resize2fs
+-rwxr-xr-x 1 root root      5630 Jun 13  2014 resolvconf
+lrwxrwxrwx 1 root root         7 Jul 18  2014 restart -> initctl
+lrwxrwxrwx 1 root root         9 Apr 10  2014 rmmod -> /bin/kmod
+-rwxr-xr-x 1 root root     58032 Aug  5  2014 route
+-rwxr-xr-x 1 root root     48192 Sep 25  2015 rpcbind
+-rwxr-xr-x 1 root root     73560 Nov  6  2015 rpc.statd
+-rwxr-xr-x 1 root root     35344 Jul 23  2015 rtacct
+-rwxr-xr-x 1 root root     35256 Jul 23  2015 rtmon
+-rwxr-xr-x 1 root root     10240 Jul 18  2014 runlevel
+-rwxr-xr-x 1 root root     10488 Feb 21  2014 setcap
+-rwxr-xr-x 1 root root     10600 Feb 18  2013 setvtrgb
+-rwxr-xr-x 1 root root     61856 Sep  2  2015 sfdisk
+-rwxr-xr-x 1 root root       885 Jan 27 00:50 shadowconfig
+-rwxr-xr-x 1 root root     19192 Nov  6  2015 showmount
+-rwxr-xr-x 1 root root     84904 Jul 18  2014 shutdown
+-rwxr-xr-x 1 root root     33928 Aug  5  2014 slattach
+-rwxr-xr-x 1 root root     52312 Nov  6  2015 sm-notify
+lrwxrwxrwx 1 root root         7 Jul 18  2014 start -> initctl
+-rwxr-xr-x 1 root root     35768 Feb 17 04:59 startpar
+-rwxr-xr-x 1 root root      6328 Feb 17 04:59 startpar-upstart-inject
+-rwxr-xr-x 1 root root     28200 Jun 15 10:37 start-stop-daemon
+lrwxrwxrwx 1 root root         7 Jul 18  2014 status -> initctl
+lrwxrwxrwx 1 root root         7 Jul 18  2014 stop -> initctl
+-rwxr-xr-x 1 root root     14904 Feb 17 04:59 sulogin
+-rwxr-xr-x 1 root root     14664 Sep  2  2015 swaplabel
+lrwxrwxrwx 1 root root         6 Sep  2  2015 swapoff -> swapon
+-rwxr-xr-x 1 root root     27240 Sep  2  2015 swapon
+-rwxr-xr-x 1 root root     10544 Sep  2  2015 switch_root
+-rwxr-xr-x 1 root root     22992 Feb 10  2015 sysctl
+-rwxr-xr-x 1 root root    282024 Jul 23  2015 tc
+-rwxr-xr-x 1 root root    104728 Jul 18  2014 telinit
+-rwxr-xr-x 1 root root     68952 Sep  9  2015 tune2fs
+lrwxrwxrwx 1 root root        12 Feb 25 19:07 udevadm -> /bin/udevadm
+lrwxrwxrwx 1 root root        26 Feb 25 19:07 udevd -> /lib/systemd/systemd-udevd
+lrwxrwxrwx 1 root root         9 Nov  6  2015 umount.nfs -> mount.nfs
+lrwxrwxrwx 1 root root         9 Nov  6  2015 umount.nfs4 -> mount.nfs
+-rwxr-sr-x 1 root shadow   35536 Mar 16 17:47 unix_chkpwd
+-rwxr-xr-x 1 root root     31376 Mar 16 17:47 unix_update
+-rwxr-xr-x 1 root root    133640 Jul 18  2014 upstart-dbus-bridge
+-rwxr-xr-x 1 root root    125144 Jul 18  2014 upstart-event-bridge
+-rwxr-xr-x 1 root root    141592 Jul 18  2014 upstart-file-bridge
+-rwxr-xr-x 1 root root    133512 Jul 18  2014 upstart-local-bridge
+-rwxr-xr-x 1 root root    133352 Jul 18  2014 upstart-socket-bridge
+-rwxr-xr-x 1 root root     76040 Jul 18  2014 upstart-udev-bridge
+-rwxr-xr-x 1 root root     47408 Mar 25  2013 ureadahead
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgcfgbackup -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgcfgrestore -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgchange -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgck -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgconvert -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgcreate -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgdisplay -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgexport -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgextend -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgimport -> lvm
+-rwxr-xr-x 1 root root     10399 Dec 13  2013 vgimportclone
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgmerge -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgmknodes -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgreduce -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgremove -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgrename -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgs -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgscan -> lvm
+lrwxrwxrwx 1 root root         3 Dec 13  2013 vgsplit -> lvm
+-rwxr-xr-x 1 root root     18856 Sep  2  2015 wipefs
+-rwxr-xr-x 1 root root     87768 Jan  8  2014 xtables-multi

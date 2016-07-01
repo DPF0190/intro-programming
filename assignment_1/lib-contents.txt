@@ -1,0 +1,30 @@
+total 304
+drwxr-xr-x  2 root root  4096 Jun 29 15:50 apparmor
+lrwxrwxrwx  1 root root    21 Sep 14  2012 cpp -> /etc/alternatives/cpp
+drwxr-xr-x  3 root root  4096 Jun 29 15:50 crda
+drwxr-xr-x 70 root root 20480 Jun 29 15:50 firmware
+drwxr-xr-x  2 root root  4096 Jun 29 15:46 hdparm
+drwxr-xr-x  2 root root  4096 Jun 29 15:46 ifupdown
+drwxr-xr-x  2 root root  4096 Jun 29 15:43 init
+-rwxr-xr-x  1 root root 71528 Apr 28 04:27 klibc-gLiulUM5C1Zpwc25rCxX8UZ6S-s.so
+lrwxrwxrwx  1 root root    17 Jan  8  2014 libip4tc.so.0 -> libip4tc.so.0.1.0
+-rw-r--r--  1 root root 27392 Jan  8  2014 libip4tc.so.0.1.0
+lrwxrwxrwx  1 root root    17 Jan  8  2014 libip6tc.so.0 -> libip6tc.so.0.1.0
+-rw-r--r--  1 root root 31520 Jan  8  2014 libip6tc.so.0.1.0
+lrwxrwxrwx  1 root root    16 Jan  8  2014 libiptc.so.0 -> libiptc.so.0.0.0
+-rw-r--r--  1 root root  5816 Jan  8  2014 libiptc.so.0.0.0
+lrwxrwxrwx  1 root root    20 Jan  8  2014 libxtables.so.10 -> libxtables.so.10.0.0
+-rw-r--r--  1 root root 47712 Jan  8  2014 libxtables.so.10.0.0
+drwxr-xr-x  3 root root  4096 Jun 29 15:45 lsb
+drwxr-xr-x  2 root root  4096 Jun 29 15:49 modprobe.d
+drwxr-xr-x  4 root root  4096 Jun 29 16:35 modules
+drwxr-xr-x  2 root root  4096 Jun 29 15:49 modules-load.d
+drwxr-xr-x  3 root root  4096 Jun 29 15:50 plymouth
+drwxr-xr-x  3 root root  4096 Sep 14  2012 recovery-mode
+drwxr-xr-x  2 root root  4096 Jun 29 15:48 resolvconf
+drwxr-xr-x  3 root root  4096 Jun 29 15:49 systemd
+drwxr-xr-x 15 root root  4096 Sep 14  2012 terminfo
+drwxr-xr-x  4 root root  4096 Jun 29 15:50 udev
+drwxr-xr-x  2 root root  4096 Jun 29 15:50 ufw
+drwxr-xr-x  5 root root 12288 Jun 30 14:11 x86_64-linux-gnu
+drwxr-xr-x  2 root root 20480 Jun 29 15:50 xtables

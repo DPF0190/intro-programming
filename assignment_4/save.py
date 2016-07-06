@@ -20,7 +20,9 @@ def saveTask(taskString):
 
 
 new_task= parseArguments(sys.argv)
+save_task = (new_task)
 
 print(sys.argv[1: ])
-print(" ".join(sys.argv[1: ]))
+print(" ".join(save_task))
+
 

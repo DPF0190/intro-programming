@@ -15,14 +15,17 @@ def saveTask(taskString):
 
     dbFilename = "task_database_python.txt"
     dbPath = os.path.join( os.getenv("HOME"), dbFilename )
-    with open(dbPath, "a") as myfile:
-        myfile.write(taskString)
+    print(dbPath)
+    print(taskString)
+
+task_result = parseArguments(sys.argv)
+
+saveTask(task_result)
+print(task_result)
 
 
-new_task= parseArguments(sys.argv)
-save_task = (new_task)
+parseArguments(sys.argv)
+print(sys.argv)
 
-print(sys.argv[1: ])
-print(" ".join(save_task))
 
 

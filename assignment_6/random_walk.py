@@ -22,4 +22,35 @@ print(get_random_direction())
 print(get_random_direction())
 print(get_random_direction())
 print(get_random_direction())
+
 print(get_random_direction())
+
+
+def get_direction_displacement(dir_key):
+    displacements = {
+        'west': (-1, 0),
+        'east': (1, 0),
+        'north': (0, 1),
+        'south': (0, -1)
+        }
+    return displacements[dir_key]
+
+
+
+
+def take_walk(steps):
+    current_location = [0, 0]
+    for step_index in range(steps):
+        direction = get_random_direction()
+
+        displacement = get_direction_displacement(direction)
+
+        # extract the numerical values from the tuple
+        delta_x = displacement[0]
+        delta_y = displacement[1]
+
+        # UPDATE current_location HERE
+        # consult example in 'Storing and Updating State' for method to update
+        # current_location
+
+    return current_location

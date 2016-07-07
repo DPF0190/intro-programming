@@ -35,9 +35,6 @@ def get_direction_displacement(dir_key):
         }
     return displacements[dir_key]
 
-
-
-
 def take_walk(steps):
     current_location = [0, 0]
     for step_index in range(steps):
@@ -49,7 +46,13 @@ def take_walk(steps):
         delta_x = displacement[0]
         delta_y = displacement[1]
 
-        # UPDATE current_location HERE
+        example_location = [0, 0]
+        change_in_x = -1
+        change_in_y = 0
+        example_location[0] += change_in_x
+        example_location[1] += change_in_y
+
+# UPDATE current_location HERE
         # consult example in 'Storing and Updating State' for method to update
         # current_location
 
